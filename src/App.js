@@ -11,8 +11,8 @@ const App = () => {
       <div className='container'>
         <Header />
         <Switch>
-          <Route exact path='/breaking_bad' component={CharacterMain} />
-          <Route path='/quotes' component={QuotesMain} />
+          <Route exact path='/breaking_bad/' component={CharacterMain} />
+          <Route exact path='/breaking_bad/quotes' component={QuotesMain} />
         </Switch>
       </div>
     </Router>

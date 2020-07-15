@@ -9,7 +9,8 @@ const Header = () => {
         <img src={logo} alt='' />
       </header>
       <h1 className='center' style={{ marginBottom: 20 }}>
-        <Link to='/breaking_bad'>Cast</Link> • <Link to='/quotes'>Quotes</Link>
+        <Link to='/breaking_bad'>Cast</Link> •{' '}
+        <Link to='/breaking_bad/quotes'>Quotes</Link>
       </h1>
     </div>
   );
