@@ -3,7 +3,7 @@ import CharacterGrid from './CharacterGrid';
 import Search from '../ui/Search';
 import axios from 'axios';
 
-const App = () => {
+const CharacterMain = () => {
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [query, setQuery] = useState('');
@@ -31,4 +31,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default CharacterMain;
