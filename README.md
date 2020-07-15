@@ -1,6 +1,6 @@
 # Breaking Bad
 
-React project that uses the [breaking bad api](https://breakingbadapi.com/documentation) to show and filter characters from the tv series.
+React project that uses the [breaking bad api](https://breakingbadapi.com/documentation) to show and filter characters and quotes from the tv series.
 
 Interactive View : [Breaking Bad](https://cypher-adi.github.io/breaking_bad/)
 
